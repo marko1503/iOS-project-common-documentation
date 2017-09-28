@@ -1,0 +1,2 @@
+Test deep links on simulator:
+xcrun simctl openurl booted <URL>
