@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>protocol &lt;#[Model]#&gt;Delegate: class {
+
+    func didStartLoading&lt;#[Data]#&gt;With&lt;#[Model]#&gt;(_ model: &lt;#[Model]#&gt;)
+
+    func &lt;#[Model]#&gt;(_ model: &lt;#[Model]#&gt;, didLoad&lt;#[Data]#&gt;WithError error: Error?)
+
+    func &lt;#[Model]#&gt;(_ model: &lt;#[Model]#&gt;, didLoad&lt;#[Data]#&gt; &lt;#[data]#&gt;: &lt;#[Data]#&gt;)
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FD482721-4623-41D9-8DEB-9807A79F948F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Loader state protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

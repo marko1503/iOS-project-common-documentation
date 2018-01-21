@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>enumKey</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct &lt;#EnumKey#&gt;: RawRepresentable, Equatable, Hashable, Encodable {
+
+    // MARK: - RawRepresentable
+    typealias RawValue = String
+
+    // MARK: - Init
+    init(_ rawValue: RawValue) {
+        self.rawValue = rawValue
+    }
+
+    init(rawValue: RawValue) {
+        self.rawValue = rawValue
+    }
+
+    var rawValue: RawValue
+
+    // MARK: - Hashable
+    var hashValue: Int {
+        return self.rawValue.hashValue
+    }
+
+    // MARK: - Equatable
+    static func == (lhs: &lt;#EnumKey#&gt;, rhs: &lt;#EnumKey#&gt;) -&gt; Bool {
+        guard lhs.rawValue == rhs.rawValue else { return false }
+        return true
+    }
+
+}
+
+extension &lt;#EnumKey#&gt; {
+
+    static let &lt;#Constant#&gt;: &lt;#EnumKey#&gt; = &lt;#EnumKey#&gt;("&lt;#String value#&gt;")
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BC0095AD-1474-40B4-8CBB-76A42ADDC286</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Enum Key</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
